@@ -1,19 +1,27 @@
 import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
-    <footer>
-      <div className="container footer-row">
-        <div className="wordmark" style={{ fontSize: '1rem' }}>
-          CELESTIA STUDIOS<span>.</span>
-        </div>
+    <footer className="footer">
+      <div className="footer-wordmark" aria-hidden="true">
+        CELESTIA STUDIOS
+      </div>
+      <div className="footer-bottom">
+        <span className="footer-copy">
+          A Celestia Studios Production @ 2026
+        </span>
         <div className="footer-links">
-          <a href="#system">System</a>
-
-          <a href="#process">Process</a>
-          <a href="#founders">Studio</a>
-          <Link to="/contact">Contact</Link>
+          <a href="https://www.instagram.com/mycelestiastudio/" target='_blank'>Instagram</a>
+          <a href="https://www.linkedin.com/company/celestiastudios/" target='_blank'>Linkedin</a>
         </div>
-        <div className="slate">Designed by Shikhar Srivastava™ in India</div>
+        <a
+          href="https://x.com/celestiastudios"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-social"
+        >
+          Follow us on X
+        </a>
       </div>
     </footer>
   )
