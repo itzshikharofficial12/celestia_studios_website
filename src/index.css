@@ -534,7 +534,7 @@ font-size:4rem;
   line-height: 1.12;
 }
 .cal-embed-wrap {
-  width: 100%;
+  width: 1000px;
   min-height: 700px;
   border-radius: 18px;
   overflow: hidden;
@@ -558,10 +558,13 @@ font-size:4rem;
   font-weight: 400;
 }
 .cal-embed-wrap {
-  margin-top: 48px;
-  border-radius: 18px;
+  border-radius: 16px;
   overflow: hidden;
   border: 1px solid var(--line);
+  padding: 20px;
+  background: rgba(255,255,255,.02);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* ---------- hero (revised) ---------- */
@@ -1139,7 +1142,8 @@ font-size:4rem;
   z-index: 1;
 }
 .contact-wrap {
-  max-width: 860px;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 60px;
