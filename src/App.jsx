@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import Starfield from './components/Starfield.jsx'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
@@ -41,6 +42,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/process" element={<Process />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   )
 }
