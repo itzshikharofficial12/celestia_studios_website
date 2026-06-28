@@ -4,6 +4,12 @@ import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Marquee from './components/Marquee.jsx'
 import ProblemAnswer from './components/ProblemAnswer.jsx'
+import SystemOverview from './components/SystemOverview.jsx'
+import WhyBoutique from './components/WhyBoutique.jsx'
+import WhoWeFor from './components/WhoWeFor.jsx'
+import FeaturedInsight from './components/FeaturedInsight.jsx'
+import OpenFor from './components/OpenFor.jsx'
+import SignaturePromise from './components/SignaturePromise.jsx'
 import FoundersCTA from './components/FoundersCTA.jsx'
 import Footer from './components/Footer.jsx'
 import Services from './pages/Services.jsx'
@@ -23,6 +29,12 @@ function Home() {
         <Hero />
         <Marquee />
         <ProblemAnswer />
+        <SystemOverview />
+        <WhyBoutique />
+        <WhoWeFor />
+        <FeaturedInsight />
+        <OpenFor />
+        <SignaturePromise />
         <FoundersCTA />
       </main>
       <Footer />
